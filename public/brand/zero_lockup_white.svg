@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 128" role="img" aria-labelledby="title desc">
+<title id="title">ZERO lockup white</title>
+<desc id="desc">ZERO brand mark. Custom geometric lettering with a three-bar E.</desc>
+<g shape-rendering="geometricPrecision"><g transform="translate(0 0) scale(0.72)"><path fill="#FFFFFF" d="M14 14h40v18H32v22H14zm60 0h40v40H96V32H74zM14 74h18v22h22v18H14zm82 0h18v40H74V96h22z"/>
+<path fill="#FFFFFF" d="M48 49h32v8H48zm0 13h32v8H48zm0 13h32v8H48z"/></g><g transform="translate(118 16) scale(0.72)"><path fill="#FFFFFF" d="M0 8h78v14L19 78h59v14H0V78l59-56H0z"/>
+<path fill="#FFFFFF" d="M100 8h72v14h-72zm0 35h72v14h-72zm0 35h72v14h-72z"/>
+<path fill="#FFFFFF" d="M196 8h14v84h-14zm0 0h38c17 0 28 10 28 25s-11 25-28 25h-38V44h37c9 0 15-4 15-11s-6-11-15-11h-37zm31 50 31 34h-18l-31-34z"/>
+<path fill="none" stroke="#FFFFFF" stroke-width="14" d="M330 15h48c17 0 30 13 30 30v10c0 17-13 30-30 30h-48c-17 0-30-13-30-30V45c0-17 13-30 30-30z"/></g></g>
+</svg>

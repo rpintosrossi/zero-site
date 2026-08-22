@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #19273a;
+  --blue: #0668ed;
+  --gray: #aeb0b5;
+  --mist: #f6f7f9;
+}
+
+@theme inline {
+  --color-navy: var(--navy);
+  --color-blue: var(--blue);
+  --color-mist: var(--mist);
+  --color-brand-gray: var(--gray);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-ibm);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  color: var(--navy);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+.hero-overlay {
+  background:
+    linear-gradient(
+      90deg,
+      rgb(25 39 58 / 0.94) 0%,
+      rgb(25 39 58 / 0.82) 38%,
+      rgb(25 39 58 / 0.48) 100%
+    ),
+    linear-gradient(180deg, rgb(25 39 58 / 0.2) 0%, rgb(25 39 58 / 0.55) 100%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  video {
+    display: none;
+  }
+}
