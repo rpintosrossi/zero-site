@@ -32,7 +32,7 @@ export function ContactForm() {
       comercio ? `Contacto — ${comercio}` : `Contacto — ${nombre}`,
     );
     const body = encodeURIComponent(lines.join("\n"));
-    window.location.href = `mailto:hola@zero.app?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:info@zeroit.com.ar?subject=${subject}&body=${body}`;
     setSent(true);
   }
 
@@ -40,8 +40,8 @@ export function ContactForm() {
     return (
       <p className="text-[17px] leading-7 text-navy/70">
         Gracias. Si no se abrió el correo, escribinos a{" "}
-        <a href="mailto:hola@zero.app" className="text-blue">
-          hola@zero.app
+        <a href="mailto:info@zeroit.com.ar" className="text-blue">
+          info@zeroit.com.ar
         </a>
         .
       </p>

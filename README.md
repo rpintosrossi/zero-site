@@ -9,20 +9,19 @@ npm run dev
 
 Abre http://localhost:3003
 
-## Hostinger
+## Subir por FTP (Hostinger)
 
-En hPanel: **Websites → Add Website → Node.js Apps → Import Git Repository**.
+```bash
+npm run build
+```
 
-Conectá GitHub, elegí este repo y usá:
+Eso genera la carpeta `out/`. En FileZilla (o el administrador de archivos):
 
-| Campo | Valor |
-| --- | --- |
-| Node.js | 20 |
-| Install | `npm ci` |
-| Build | `npm run build` |
-| Start | `npm run start -- -p $PORT` |
+1. Entrá a `public_html` (o la carpeta del dominio).
+2. Subí **el contenido** de `out/`, no la carpeta `out` entera.
+3. Tiene que quedar `public_html/index.html` a la vista, junto con `_next`, `videos`, `brand` y `stores`.
 
-Cada push a `main` vuelve a desplegar.
+No subas `src`, `node_modules` ni el resto del proyecto.
 
 ## Marca
 
