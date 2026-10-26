@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Mono, Inter } from "next/font/google";
+import { ContactShortcut } from "@/components/contact-shortcut";
 import "./globals.css";
 
 const inter = Inter({
@@ -31,6 +32,7 @@ export default function RootLayout({
     <html lang="es-AR">
       <body className={`${inter.variable} ${plex.variable} antialiased`}>
         {children}
+        <ContactShortcut />
       </body>
     </html>
   );
